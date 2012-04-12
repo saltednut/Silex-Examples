@@ -1,0 +1,8 @@
+{
+  "require": {
+    "silex/silex": "*",
+    "twig/twig": "1.6.0",
+    "fate/Silex-Extensions": "*",
+    "doctrine/mongodb": "*"
+  }
+}
