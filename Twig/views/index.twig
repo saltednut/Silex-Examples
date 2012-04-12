@@ -1,0 +1,6 @@
+{% include 'header.html' %}
+{% if path == 'home' %}
+{% include 'nav.html' %}
+{% endif %}
+{% include path ~ '.html' %}
+{% include 'footer.html' %}

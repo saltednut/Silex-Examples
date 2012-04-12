@@ -1,0 +1,195 @@
+body {
+  background-color: #FFF;
+  background-image: url("../img/background-tile.jpg");
+}
+
+@media all and (max-width: 1000px)  {
+  body {
+    font-size: 90%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+@media all and (max-width: 666px) {
+  body {
+    font-size: 66%;
+  }
+}
+
+#wrap {
+  width: 50em;
+  height: 37.5em;
+  margin: 3% auto;
+  background-color: #202D36;
+  border: 1px solid #35393B;
+}
+
+#home-top {
+  height: 18.875em;
+  background-color: #FFFBF8;
+}
+
+#home-top #sixth-october {
+  width: 22.1875em;
+  height: 17.125em;
+  background-image: url('../img/home-sixth-october.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  margin-left: 26.5625em;
+  margin-top: 1.125em;
+  overflow: hidden;
+  text-indent: -1000em;
+}
+
+#home-bottom {
+  height: 18.625em;
+  width: 50em;
+  background-color: #202D36;
+}
+
+#home-bottom #erin-and-brant {
+  width: 24em;
+  height: 9.375em;
+  background-image: url('../img/home-erin-and-brant.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  margin-left: 1.1825em;
+  margin-top:  2.125em;
+  overflow: hidden;
+  text-indent: -1000em;
+}
+
+#wedding {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/wedding.jpg');
+  background-size: 100%;
+}
+
+#wedding-bottom {
+  display: block;
+  font-family: 'MenschThin';
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  margin-left: 4.625em;
+  margin-top: 31.875em;
+  font-size: 1.125em;
+} 
+
+#wedding-bottom span {
+  margin: 0em 2.875em;
+}
+
+#wedding #ceremony {
+  width: 20.0625em;
+  height: 12.3125em;
+  background-image: url('../img/ceremony.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 4.6875em;
+  margin-top: 8.125em;
+  overflow: hidden;
+  text-indent: -1000em;
+}
+
+#nav {
+  position: absolute;
+  margin-top: 22.435em;
+  margin-left: 38em;
+}
+
+#nav a {
+  display: block;
+  overflow: hidden;
+  text-indent: -1000em;
+  background-size: 100%;
+  margin-bottom: 1.22em;
+}
+
+#nav #the-wedding {
+  background-image: url('../img/nav-the-wedding.png');
+  width: 10em;
+  height: 3.4375em;
+}
+
+#nav #hotel-info {
+  background-image: url('../img/nav-hotel-info.png');
+  width: 7.875em;
+  height: 3.25em;
+}
+
+#nav #directions {
+  background-image: url('../img/nav-directions.png');
+  width: 8em;
+  height: 2.5em;
+}
+
+#hotel-info-suitcase {
+  background-image: url("../img/wedding-suitcase.jpg");
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+#hotel-info-top #carleton-hotel {
+  display: block;
+  background-image: url("../img/carleton-hotel.png");
+  background-size: 100%;
+  width: 31.875em;
+  height: 2.875em;
+  position: absolute;
+  margin-left: 0.875em;
+  margin-top: 0.9375em;i
+  overflow: hidden;
+  text-indent: -1000em;
+}
+
+#hotel-info-top #hotel-address {
+  display: block;
+  background-image: url("../img/hotel-address.png");
+  background-size: 100%;
+  width: 26.0625em;
+  height: 2.0625em;
+  position: absolute;
+  margin-left: 0.9375em;
+  margin-top: 4.125em;
+  overflow: hidden;
+  text-indent: -1000em;
+}
+
+#hotel-info-middle {
+  font-family: 'MenschRegular';
+  font-size: 1.0625em;
+  line-height: 0.75em;
+  position: absolute;
+  margin-top: 18.75em;
+  margin-left: 19.4em;
+  clear: both;
+  width: 13em;
+}
+
+#hotel-info-middle span {
+  float: right;
+}
+
+#hotel-info-bottom {
+  font-family: 'MenschThin';
+  line-height: 1.5em;
+  color: #FFF;
+  position: absolute;
+  margin-top: 33em;
+  margin-left: 16em;
+}
+
+#hotel-info-bottom strong {
+  font-family: 'MenschRegular';
+}
